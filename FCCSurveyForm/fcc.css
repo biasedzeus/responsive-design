@@ -1,0 +1,33 @@
+
+
+
+.container{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+}
+
+form{
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    height: 100;
+
+}
+.check-box-group{
+    display: flex;
+    flex-direction: column;
+
+}
+
+button{
+    height: 50px;
+    color:white;
+    background-color: lightgreen;
+    font-size: 1.2em;
+    border: none;
+}
+
