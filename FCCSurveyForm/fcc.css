@@ -68,3 +68,11 @@ button:hover{
 .radio-group{
     margin-bottom: 20px;
 }
+
+.check-box-group,input{
+    margin-right: 20px;
+}
+.check-box-group,input:hover{
+   transform: scale(1.03);
+   transition: 300ms ease-in-out;
+}
