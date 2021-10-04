@@ -11,6 +11,7 @@ input{
 }
 label{
     margin: 10px;
+    margin-left: 20px;
 }
 
 .container{
@@ -63,4 +64,7 @@ textarea{
 button:hover{
     background-color: #57CC99;
     transition: 200ms ease-in-out;
+}
+.radio-group{
+    margin-bottom: 20px;
 }
