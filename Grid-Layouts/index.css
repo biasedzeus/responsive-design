@@ -1,0 +1,16 @@
+body{
+    background-color: #3e3e3e;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 220px );
+    grid-template-rows: repeat(3,400px);
+
+}
+
+.grid-item{
+    height: 50%;
+    width: 80%;
+    color: bisque;
+    background-color: brown;
+}
