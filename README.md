@@ -16,3 +16,27 @@ don't just use divs everywhere.
 also add "meta" and "open graph" tabs which are used by every 
 social platform. SEO related
 
+## performance ✅
+-- preloading
+-- prefetching
+using link tags 🌐
+
+preload resources to the browser cache which will be used in website
+ex. nextJS,remix
+
+## Script 📃
+where to put it ? 🤔
+for performance,  it's always put at the bottom of the html body
+ so that it doesn't stop rendering of html page.
+
+-- normal script tag , html renders and stops when it encounters
+a script tag , only when the script is fetched and executed, 
+the html start rendering again.
+
+-- async script 
+html render until it encounters script with async and
+ it keeps rendering even when fetching the script and
+ stops when execution of starts.
+
+-- script at body end
+ html renders completely and then script is fetched and executed 
